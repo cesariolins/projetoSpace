@@ -1,0 +1,71 @@
+.container00 {
+    &.container08 {
+        background-image: url("../../Images/humanFlight/01.jpg");
+    }
+
+    &.container10 {
+        background-image: url("../../Images/humanFlight/02.jpg");
+    }
+
+    &.container11 {
+        background-image: url("../../Images/humanFlight/03.jpg");
+    }
+
+    &.container12 {
+        background-image: url("../../Images/humanFlight/04.jpg");
+    }
+
+    &.container13 {
+        background-image: url("../../Images/humanFlight/05.jpg");
+    }
+}
+
+.containerHuman {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .humanTitle {
+        font-size: 120px;
+    }
+
+    .humanSubtitle {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .arrowDown2 {
+        width: 130px;
+    }
+}
+
+.container09 {
+    background-color: black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    a {
+        color: white;
+    }
+
+    p {
+        width: 800px;
+    }
+}
+
+.rightContainer {
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+.leftContainer {
+    margin-left: 5%;
+    padding-top: 15%;
+}

@@ -1,0 +1,74 @@
+.container00 {
+    &.container01 {
+        background-image: url("../../Images/home/01.jpg");
+    }
+    &.container02 {
+        background-image: url("../../Images/home/03.jpg");
+    }
+    &.container03 {
+        background-image: url("../../Images/home/02.gif");
+    }
+    &.container04 {
+        background-image: url("../../Images/home/04.jpg");
+    }
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.shortTitle {
+    width: 550px;
+    margin-bottom: 25px;
+}
+
+.mediumTitle {
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+#button {
+    padding: $padding-button;
+    border: solid 2px white;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    .copyCesa {
+        color: $copy-color;
+    }
+}
+
+@media (max-width: 750px) {
+    .titlePadding {
+        padding-top: 120px;
+    }
+
+    .shortTitle, .mediumTitle {
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    .shortTitle, .mediumTitle {
+        width: auto;
+        font-size: 40px;
+    }
+}
